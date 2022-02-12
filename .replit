@@ -1,3 +1,5 @@
+language = "bash"
+run = "chmod +x run.sh;./run.sh"
 #include <stdio.h.>
 int main ()
 {
