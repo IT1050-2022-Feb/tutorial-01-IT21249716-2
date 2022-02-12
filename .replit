@@ -1,6 +1,6 @@
 language = "bash"
 run = "chmod +x run.sh;./run.sh"
-#include <stdio.h
+#include<stdio.h>
 int main()
 {
 	int value1,value2,value3,sum,avg;
