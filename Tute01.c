@@ -14,10 +14,10 @@ int main()
 	scanf("%d",&value3);
 	
 	sum = value1 + value2 + value3;
-	printf("Total mark is %d", sum);
+	printf("Total mark is %d\n", sum);
 	
 	avg = sum / 3;
-	printf("Average mark of the student %d", avg);
+	printf("Average mark of the student %d\n", avg);
 	
 	return 0;
 }
