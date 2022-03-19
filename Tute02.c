@@ -23,10 +23,10 @@ int main()
   int x;
   int Rent;
   
-	printf("Input the distance the van has
-    travelled in km: ");
-	scanf("%d",&x);
-  if (x =< 30) 
+  printf("Input the distance the van has travelled in km: ");
+  scanf("%d",&x);
+  
+  if (x <= 30) 
 {
   Rent = x * 50;
 } 
@@ -34,6 +34,7 @@ else
 {
   Rent = x * 40;
 }
-   printf( "Rented vehicle fee is : %d\n",rent);
+   printf( "Rented vehicle fee is : %d\n",Rent);
+  
   return 0;
 }
